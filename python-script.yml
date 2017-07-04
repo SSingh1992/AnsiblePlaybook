@@ -1,0 +1,5 @@
+---
+- hosts: node
+  tasks:
+   - name: Copy and execute python script
+     script: /home/sanket/python/hello.py

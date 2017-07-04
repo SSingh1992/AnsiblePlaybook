@@ -1,0 +1,10 @@
+---
+- hosts: node
+  tasks:
+   - name: Transfer file
+     copy: 
+       src: /home/sanket/file_trans/transfer.txt
+       dest: /home/sanket/Documents/transfer.txt
+       owner: sanket
+       group: sanket
+       mode: 0644        
